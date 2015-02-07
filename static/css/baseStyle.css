@@ -1,13 +1,13 @@
 html {
 	font-family: 'Helvetica Neue';
-	background: #101010;
+	background: #090909;
 }
 
 body {
-	margin: auto;
 	width: 920px;
     padding-top: 0px;
     -webkit-font-smoothing: antialiased;
+    margin: auto;
 }
 
 h1 {
@@ -15,8 +15,8 @@ h1 {
 	font-size: 32px;
 	font-weight: normal;
 	text-align: center;
-    margin-top: 56px;
-    margin-bottom: 42px;
+    margin-top: 30px;
+    margin-bottom: 6px;
 }
 
 h2 {
@@ -29,15 +29,25 @@ h2 {
 
 #content {
     padding-top: 0px;
-    width: 920px;
+    padding-bottom: 42px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }	
+
+#topNav ul {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 800px;
+}
 
 #topNav ul li {
 	display: inline;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 }
 
 #art {
@@ -49,19 +59,35 @@ h2 {
 }
 
 #wrapper {
-    padding: 20px;
+    padding: 0px;
 }
 
 #text {
+    display: block;
 	margin: auto;
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
 	color: #d2d2d2;
-	width: 520px;
+	width: 460px;
+}
+
+#foot {
+    padding-top: 68px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foot ul {
+    display: inline;
 }
 
 a:link, a:visited, a:active, a:hover {
-	color: #B1B0B0;
+	color: #d9d9d9;
 	text-decoration: none;
 }
 
@@ -75,4 +101,17 @@ a.topsel {
 
 a.name {
     color: #65F2A9;
+}
+
+h3 { 
+    color: #fff;
+    padding: 8px;
+    width: 800px;
+}
+
+h3 span { 
+    color: #d9d9d9;
+    font: bold 18px/32px Helvetica Neue;
+    letter-spacing: 0px;  
+    padding: 8px; 
 }

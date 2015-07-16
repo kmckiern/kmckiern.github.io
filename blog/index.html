@@ -5,12 +5,19 @@
         <meta charset="utf-8">
         <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Open+Sans:700,400' rel='stylesheet' type='text/css'></link>
         <link type="text/css" href="http://web.stanford.edu/~kmckiern/static/css/baseStyle.css" rel="stylesheet"></link>
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/x-mathjax-config">
             MathJax.Hub.Config({
-                tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+                extensions: ["tex2jax.js"],
+                jax: ["input/TeX", "output/HTML-CSS"],
+                tex2jax: {
+                  inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                  displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                  processEscapes: true
+                },
+                "HTML-CSS": { availableFonts: ["TeX"] }
             });
         </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -18,7 +25,7 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-59501255-1', 'auto');
+          ga('create', 'UA-59503153-1', 'auto');
           ga('send', 'pageview');
 
         </script>
@@ -40,16 +47,16 @@
                     <h2><a href="mailto:kmckiern@stanford.edu" class="topsel">kmckiern/at/stanford/dot/edu</a></h2>
                 </div>
                 <div id="module">
-                    <h3> 02.07.2015 </h3> <h4> Particle Mesh Ewald </h4>
+                    <h3> 02.07.2015 </h3> <h4> first post </h4>
                     <div id="entry">
-                        <p>I have to read up on my electrostatics, so I figured I may as well blog what I learn.
+                        <p>Here I plan to occasionally blog about things that interest me.  
                         <br />
-                        <p>In the meantime, here is one of my favorite mathematical expressions, the Cauchy-Schwartz Inequality:
+                        <p>Here I am testing out MathJax via one of my favorite mathematical expressions, the Cauchy-Schwartz inequality:
                         <br />
-                        <p>\[
-                        \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
-                         \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-                        \]</p>
+                        <p>\begin{equation}
+                        \left| \sum_{k=1}^n a_k \bar{b}_k \right|^2 \leq
+                        \sum_{k=1}^n \left| a_k \right|^2 \sum_{k=1}^n \left| b_k \right|^2 
+                        \end{equation}</p>
                     </div>
                 </div>
             </div>

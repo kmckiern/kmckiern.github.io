@@ -1,9 +1,11 @@
 ---
+Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "minima";
 
 .site-header {
+  border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -22,5 +24,29 @@
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+}
+
+.about {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.05);
+}
+
+.post-title {
+  @include relative-font-size(1.25);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.25);
   }
 }

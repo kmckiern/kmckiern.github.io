@@ -5,4 +5,4 @@ date:   2017-04-11
 categories: blog
 ---
 
-Post written on the [Pande group medium](https://medium.com/@pandelab/gating-of-the-trek-2-ion-channel-8e486eaebc6b)
+Post posted on the [Pande group medium](https://medium.com/@pandelab/gating-of-the-trek-2-ion-channel-8e486eaebc6b)

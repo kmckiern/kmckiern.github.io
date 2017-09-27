@@ -1,5 +1,5 @@
 ---
-Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "minima";
@@ -27,15 +27,6 @@ Only the main Sass file needs front matter (the dashes are enough)
   }
 }
 
-.about {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
 .post-link {
   display: block;
   @include relative-font-size(1.05);
@@ -43,10 +34,16 @@ Only the main Sass file needs front matter (the dashes are enough)
 
 .post-title {
   @include relative-font-size(1.25);
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   line-height: 1;
 
   @include media-query($on-laptop) {
     @include relative-font-size(1.25);
   }
+}
+
+.about {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: $spacing-unit;
 }

@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 1px solid $grey-color-dark;
+  border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -209,12 +209,12 @@
 }
 
 .post-title {
-  @include relative-font-size(1.25);
+  @include relative-font-size(1.05);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.05);
   }
 }
 

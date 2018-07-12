@@ -2,6 +2,10 @@
 layout: home
 ---
 
-I use machine learning and dynamical simulation to better understand (bio)physical systems. I do this work as a graduate researcher in the lab of [Vijay Pande](https://www.pandelab.org). You can find a complete list of my research publications on my [google scholar](https://scholar.google.com/citations?user=5puhOkwAAAAJ&hl=en).
+I work on quantum computing applications and algorithms at [Rigetti Computing](https://www.rigetti.com/).
 
-Sometimes I write blogs and tutorials.  You can find some of these below.
+Previously, I worked on improving and applying machine learning and dynamical simulation to better understand biophysical systems. This was done as a graduate researcher at Stanford University, in the lab of [Vijay Pande](https://www.pandelab.org). 
+
+You can find a complete list of my research publications on my [google scholar](https://scholar.google.com/citations?user=5puhOkwAAAAJ&hl=en).
+
+Sometimes I write blogs and tutorials, and give talks.  You can find some of these below.

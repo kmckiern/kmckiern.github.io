@@ -1,2 +1,2 @@
 # kmckiern.github.io
-web hosting
+science!

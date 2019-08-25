@@ -16,7 +16,7 @@ To solve an optimization problem on a quantum computer, one needs to first defin
 
 Traditionally, one would then call on a known near-term quantum algorithm, which provides a parametric template of quantum gates. These gate parameters are then variationally optimized with respect to the problem hamiltonian through iterative execution on a quantum resource (see [here](https://arxiv.org/abs/1411.4028), the quantum algorithm typically used for combinatorial optimization, to learn more). Reinforcement learning removes the need for a predefined ansatz. Instead, the learning agent is exposed only to the problem hamiltonian and a finite set of quantum gates. It is directly incentivized to sequentially construct quantum programs that minimize the problem hamiltonian.
 
-![agent]({{ site.url }}/assets/io.png){:height="70%" width="70%" .center}
+![agent](/assets/io.png){:height="70%" width="70%" .center}
 
 In this work, we first train a range of agents using a simulated quantum resource. Through this training process, the agents demonstrate the ability to generate programs yielding increasingly higher quality solutions (episode reward), using a shorter number of gates (episode length).
 

@@ -47,3 +47,9 @@
   list-style: none;
   margin-bottom: $spacing-unit;
 }
+
+.center {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}

@@ -26,17 +26,13 @@ Following training, we tested the agents on both the simulated and real quantum 
 
 ![test-rewards](/assets/test-rewards.png)
 
-In order to investigate the impact of training directly on the QPU, we tested both the QVM-trained agent and the QPU-trained agent on the QPU.
+In order to investigate the impact of training directly on the QPU, we tested both the QVM-trained agent and the QPU-trained agent on the QPU. We see that although the reward metric is relatively unchanged (left distributions), the QPU-trained agent generated much shorter programs (right distributions). This is perhaps due to an indirect incentive present during QPU-training: device noise.
 
 ![qpu-training](/assets/qpu-training.png)
 
-We see that although the reward metric is relatively unchanged (left distributions), the QPU-trained agent generated much shorter programs (right distributions). This is perhaps due to an indirect incentive present during QPU-training: device noise.
-
-We performed cursory analysis of agent generated programs. We find that the agent favors “bit flip” type operations. We hypothesize that for the hamiltonians and reward structure studied here, this is optimal. 
+We performed cursory analysis of agent generated programs. We find that the agent favors “bit flip” type operations. We hypothesize that for the hamiltonians and reward structure studied here, this is optimal. Note that on the QPU, the programs are compiled to a particular native gate set. We find that on the QPU, the QPU-trained agent learns to disfavor non-native gates (such as RY rotations).
 
 ![action-stats](/assets/action-stats.png)
-
-Note that on the QPU, the programs are compiled to a particular native gate set. We find that on the QPU, the QPU-trained agent learns to disfavor non-native gates (such as RY rotations).
 
 Last, we outline a range of interesting future directions. In particular, we remain curious about performance of this technique on problems with inherently quantum structure, such as quantum chemistry.
 

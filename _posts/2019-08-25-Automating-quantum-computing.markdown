@@ -28,7 +28,7 @@ Following training, we tested the agents on both the simulated and real quantum 
 
 In order to investigate the impact of training directly on the QPU, we tested both the QVM-trained agent and the QPU-trained agent on the QPU.
 
-![qpu-training]({{ site.url }}/assets/qpu-training.png)
+![qpu-training](/assets/qpu-training.png)
 
 We see that although the reward metric is relatively unchanged (left distributions), the QPU-trained agent generated much shorter programs (right distributions). This is perhaps due to an indirect incentive present during QPU-training: device noise.
 

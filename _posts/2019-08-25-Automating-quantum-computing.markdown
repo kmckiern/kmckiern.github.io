@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Automating quantum computing"
+title:  "Automated programming of quantum computers"
 date:   2019-08-25
 categories: blog
 ---

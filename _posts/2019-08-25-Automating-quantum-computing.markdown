@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Automated programming of quantum computers"
+title:  "Reinforcement learning for programming quantum computers"
 date:   2019-08-25
 categories: blog
 ---

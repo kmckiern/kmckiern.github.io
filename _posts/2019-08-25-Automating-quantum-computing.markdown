@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog: Automating quantum computing"
+title:  "Automating quantum computing"
 date:   2019-08-25
 categories: blog
 ---

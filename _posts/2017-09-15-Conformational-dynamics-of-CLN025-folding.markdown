@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog: Conformational dynamics of CLN025 folding"
+title:  "Conformational dynamics of CLN025 folding"
 date:   2017-09-15
 categories: blog
 ---

@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Creating a high fidelity DeepChem dataset from experimental data"
+title:  "Creating a high fidelity molecular dataset for deep learning from experimental data"
 date:   2017-09-08
 categories: tutorial
 ---
-
-# Creating a high fidelity DeepChem dataset from experimental data
 
 Suppose you were given data collected by an experimental collaborator.  You would like to use this data to construct a DeepChem model.  
 
@@ -56,7 +54,7 @@ display(Image(filename=data_screenshot))
 ```
 
 
-![png](../assets/output_9_0.png)
+![png](/assets/output_9_0.png)
 
 
 We see the data of interest is on the second sheet, and contained in columns "TA ID", "N #1 (%)", and "N #2 (%)".
@@ -453,7 +451,7 @@ plt.ylabel('probability')
 
 
 
-![png](../assets/output_36_1.png)
+![png](/assets/output_36_1.png)
 
 
 Some of these look rather large, len(smiles) > 150.  Let's see what they look like.
@@ -476,7 +474,7 @@ Draw._MolsToGridImage([Chem.MolFromSmiles(i) for i in long_smiles], molsPerRow=6
 
 
 
-![png](../assets/output_39_0.png)
+![png](/assets/output_39_0.png)
 
 
 
@@ -597,7 +595,7 @@ sns.jointplot('n1', 'n2', data=smiles_data)
 
 
 
-![png](../assets/output_46_1.png)
+![png](/assets/output_46_1.png)
 
 
 We see that most of the data is contained in the gaussian-ish blob centered a bit below zero.  We see that there are a few clearly active datapoints located in the bottom left, and one on the top right.  These are all distinguished from the majority of the data.  How do we handle the data in the blob?  
@@ -623,7 +621,7 @@ plt.ylabel('probability')
 
 
 
-![png](../assets/output_48_1.png)
+![png](/assets/output_48_1.png)
 
 
 This looks pretty gaussian, let's get the 95% confidence interval by fitting a gaussian via scipy, and taking 2*the standard deviation
@@ -674,7 +672,7 @@ sns.jointplot('n1', 'n2', data=df)
 
 
 
-![png](../assets/output_55_1.png)
+![png](/assets/output_55_1.png)
 
 
 Now that data looks much better!
@@ -719,7 +717,7 @@ plt.ylabel('activity')
 
 
 
-![png](../assets/output_59_1.png)
+![png](/assets/output_59_1.png)
 
 
 Now, let's identify our active compounds.  
@@ -743,7 +741,7 @@ plt.errorbar(np.arange(actives.shape[0]), actives, yerr=ci_95, fmt='o')
 
 
 
-![png](../assets/output_61_1.png)
+![png](/assets/output_61_1.png)
 
 
 

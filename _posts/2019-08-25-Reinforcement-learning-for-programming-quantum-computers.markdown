@@ -3,7 +3,7 @@ layout: post
 title:  "Reinforcement learning for programming quantum computers"
 date:   2019-08-25
 categories: blog
-tags: quantum computing, reinforcement learning, combinatorial optimization
+tags: [quantum computing, machine learning, reinforcement learning, combinatorial optimization]
 ---
 
 

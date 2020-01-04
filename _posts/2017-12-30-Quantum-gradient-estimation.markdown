@@ -4,7 +4,7 @@ title:  "Estimating gradients on a gate-based quantum computer"
 date:   2017-12-30
 youtubeId: 7Sr1_wjRm_E
 categories: tutorial
-tags: quantum computing, gradients, python
+tags: [quantum computing, gradients, tutorial]
 ---
 
 Inspired by Stephen Jordan's [Fast Quantum Algorithm for Numerical Gradient Estimation](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.050501).

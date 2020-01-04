@@ -7,7 +7,7 @@ categories: tutorial
 
 Suppose you were given data collected by an experimental collaborator.  You would like to use this data to construct a DeepChem model.  
 
-*How do you transform this data into a dataset capable of creating a useful DeepChem model?*
+*How do you transform this data into a dataset capable of creating a useful machine learning model?*
 
 Building models from novel data can present several challenges.  Perhaps the data was not recorded in a convenient manner.  Additionally, perhaps the data contains noise.  This is a common occurance with, for example, biological assays due to the large number of external variables and the difficulty and cost associated with collecting multiple samples.  This is a problem because you do not want your model to fit to this noise.
 

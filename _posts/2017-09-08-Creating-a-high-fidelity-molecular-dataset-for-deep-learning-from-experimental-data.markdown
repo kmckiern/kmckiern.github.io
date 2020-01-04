@@ -687,19 +687,6 @@ avg_df['n'] = n_avg
 avg_df.sort_values('n', inplace=True)
 ```
 
-    /home/kmckiern/miniconda2/lib/python2.7/site-packages/ipykernel_launcher.py:3: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      This is separate from the ipykernel package so we can avoid doing imports until
-    /home/kmckiern/miniconda2/lib/python2.7/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      after removing the cwd from sys.path.
-
-
 Now, let's look at the sorted data with error bars.
 
 
@@ -774,14 +761,6 @@ Let's apply logic to our dataframe in order to cast it into a binary format, sui
 # 1 if condition for active is met, 0 otherwise
 avg_df['active'] = (abs(avg_df['n'])-ci_95 > 25).astype(int)
 ```
-
-    /home/kmckiern/miniconda2/lib/python2.7/site-packages/ipykernel_launcher.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      
-
 
 Now, save this to file.
 

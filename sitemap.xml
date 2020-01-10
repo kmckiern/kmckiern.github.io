@@ -9,33 +9,33 @@
 
 <url>
   <loc>http://kmckiern.github.io/</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://kmckiern.github.io/blog/2019/08/25/Reinforcement-learning-for-programming-quantum-computers.html</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
+  <loc>http://kmckiern.github.io/blog/2019/08/25/How-to-program-a-quantum-computer-using-reinforcement-learning.html</loc>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kmckiern.github.io/tutorial/2017/12/30/Quantum-gradient-estimation.html</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kmckiern.github.io/blog/2017/09/15/Conformational-dynamics-of-CLN025-folding.html</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>http://kmckiern.github.io/tutorial/2017/09/08/Creating-a-high-fidelity-molecular-dataset-for-deep-learning-from-experimental-data.html</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
+  <loc>http://kmckiern.github.io/blog/2017/09/15/Conformational-dynamics-of-CLN025-folding.html</loc>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://kmckiern.github.io/tutorial/2017/09/08/Data-preparation-for-machine-learning-for-drug-discovery.html</loc>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kmckiern.github.io/blog/2017/04/11/Gating-of-the-TREK-2-ion-channel.html</loc>
-  <lastmod>2020-01-04T02:32:34+00:00</lastmod>
-  <priority>0.60</priority>
+  <lastmod>2020-01-10T20:45:38+00:00</lastmod>
+  <priority>0.40</priority>
 </url>
 
 

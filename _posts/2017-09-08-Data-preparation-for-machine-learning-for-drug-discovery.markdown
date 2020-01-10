@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Creating a high fidelity molecular dataset for deep learning from experimental data"
+title:  "Data preparation for machine learning for drug discovery"
 date:   2017-09-08
 categories: tutorial
-tags: [machine learning, data preparation, drug design, tutorial]
+tags: [machine learning, data preparation, computational drug design, tutorial]
 ---
 
 Suppose you were given data collected by an experimental collaborator.  You would like to use this data to construct a DeepChem model.  

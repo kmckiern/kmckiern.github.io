@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reinforcement learning for programming quantum computers"
+title:  "How to program a quantum computer using reinforcement learning"
 date:   2019-08-25
 categories: blog
 tags: [quantum computing, machine learning, reinforcement learning, combinatorial optimization]

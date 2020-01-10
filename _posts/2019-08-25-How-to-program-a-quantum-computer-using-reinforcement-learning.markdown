@@ -7,7 +7,7 @@ tags: [quantum computing, machine learning, reinforcement learning, combinatoria
 ---
 
 
-New paper! Here I present a very abridged version, originally shared on [twitter](https://twitter.com/k_mckiern/status/1164960856532119557?s=20).
+Here I present a very abridged version of the following paper:
 
 [Automated quantum programming via reinforcement learning for combinatorial optimization](https://arxiv.org/abs/1908.08054)
 
@@ -38,7 +38,6 @@ We performed cursory analysis of agent generated programs. We find that the agen
 Last, we outline a range of interesting future directions. In particular, we remain curious about performance of this technique on problems with inherently quantum structure, such as quantum chemistry.
 
 If you’re interested in learning more, all components of this work have been open sourced:
+[agent learning environment, train / valid / test datasets, trained models](https://github.com/kmckiern/gym-forest).
 
-[code, datasets, models](https://github.com/rigetti/gym-forest)
-
-Have fun!
+Good luck and happy programming!

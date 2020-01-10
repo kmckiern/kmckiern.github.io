@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Estimating gradients on a gate-based quantum computer"
+title:  "Quantum algorithm for finite difference"
 date:   2017-12-30
 youtubeId: 7Sr1_wjRm_E
 categories: tutorial

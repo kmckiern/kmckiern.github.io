@@ -38,6 +38,7 @@ We performed cursory analysis of agent generated programs. We find that the agen
 Last, we outline a range of interesting future directions. In particular, we remain curious about performance of this technique on problems with inherently quantum structure, such as quantum chemistry.
 
 If you’re interested in learning more, all components of this work have been open sourced:
-[agent learning environment, train / valid / test datasets, trained models](https://github.com/kmckiern/gym-forest).
+
+[Agent learning environment, train / valid / test datasets, trained models](https://github.com/kmckiern/gym-forest).
 
 Good luck and happy programming!

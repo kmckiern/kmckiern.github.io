@@ -2,4 +2,4 @@
 layout: home
 ---
 
-Things I like: automation, simulations, machine learning, computational physics, combinatorial optimization.
+Things I like: automation, optimization, simulation, machine learning, computational physics
